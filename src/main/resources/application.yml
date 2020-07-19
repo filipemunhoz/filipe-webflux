@@ -1,0 +1,9 @@
+server:
+  port: 8181
+  
+filipeapp:
+  default-host: http://localhost:8080
+  apis:
+  - name: weather
+    endpoint-service: https://api.openweathermap.org/data/2.5/weather
+    timeout: 5000
